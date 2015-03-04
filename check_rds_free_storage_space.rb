@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 require 'rubygems'
 require 'optparse'
-require 'aws-sdk'
+require 'aws-sdk-v1'
 require 'time'
 
 access_key = "#{ARGV[0]}"
